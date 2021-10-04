@@ -1,8 +1,9 @@
 // 1. Set the variable `givenName` to the string "Addison".
-
+const givenName = "Addison";
 // 2. Set candies equal to 20, people to 6, and leftover equal
 // to the remainder of dividing 20 by 6.
-
+let candies = "20"; let people = "6"; let leftover ="2";
+candies/people ()
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
 
