@@ -76,9 +76,18 @@ function fahrenheitToKelvin(temperature){
 // If any other language code is used, return nothing.
     function multigreeting(name){
         return "Hello, " + name + "!";
-        
-        
-
+        if (en){
+            return "hello, " + name + "!";
+        }
+         if (es) {
+             return "Hola, " + name + "!";
+         }
+         if (fr) {
+             return "Bonjour, " + name + "!";
+         }
+         if (eo) {
+             return "Saluton, " + name + "!";
+         }
     }
     
 // 11. The greatest common divisor (https://en.wikipedia.org/wiki/Greatest_common_divisor)
